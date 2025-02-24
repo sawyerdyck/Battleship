@@ -1,0 +1,39 @@
+#---------------------------|
+#      class Player         |
+#---------------------------|
+#  guessBoard: array        |
+#---------------------------|
+#  __init__(board_size: int)|
+#  get_user_guess(): Tuple  |
+#  endGame(winner, rounds)  |
+#---------------------------|
+
+#--------------------------|
+#      class Board         |
+#--------------------------|
+#  size: int               |
+#  grid: List[List[str]]   |
+#--------------------------|
+#  __init__(size: int)     |
+#  display()               |
+#--------------------------|
+
+#--------------------------|
+#    class BattleshipGame  |
+#--------------------------|
+#  boardsize: int          |
+#  numships: int           |
+#  compBoard: array        |
+#  playerBoard: array      |
+#  play: bool              |
+#--------------------------|
+#  __init__(board_size,num_ships)  
+#--------------------------|
+#  print_board()           |
+#  fillEnemyBoard()        |
+#  placeShip(board, size, _)|
+#  startGame()             |
+#  playTurn()              |
+#  playerTurn()            |
+#  compTurn()              |
+#--------------------------|
